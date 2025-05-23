@@ -1,0 +1,34 @@
+
+    <tr>
+        <td class="td-no" rowspan="5"> </td>
+        <td class="td-matiere"><b>TOTAL</b></td>
+        <td class="td-1tri">$total_tri1$</td>
+        <td class="td-1tri">$total_tri2$</td>
+        <td class="td-1tri">$total_year$</td>
+    </tr>
+
+    <tr>
+        <td class="td-matiere"><b>MOYENNES TRIMESTRIELLES</b></td>
+        <td class="td-1tri">$moy_tri1$</td>
+        <td class="td-1tri">$moy_tri2$</td>
+        <td class="td-1tri">$moy_year$</td>
+    </tr>
+
+    <tr>
+        <td class="td-matiere"><b>CLASSEMENT</b></td>
+        <td class="td-1tri">$rang_tri1$</td>
+        <td class="td-1tri">$rang_tri2$</td>
+        <td class="td-1tri">$rang_year$</td>
+    </tr>
+
+    <tr>
+        <td class="td-apprecia-lab"><b>APPRECIATION GENERAL</b></td>
+        <td class="td-apprecia-val" colspan="4">
+            <div class="div">.</div>
+            <div class="div">.</div>
+            <div class="div">.</div>
+            <div>.</div>
+        </td>
+    </tr>
+
+</table>

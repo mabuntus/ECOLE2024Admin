@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="array_classe">
+        <item>creche</item>
+        <item>pepiniere</item>
+        <item>garderie</item>
+        <item>petite-section</item>
+        <item>moyenne-section</item>
+        <item>grande-section</item>
+        <item>CP1</item>
+        <item>CP2</item>
+        <item>CE1</item>
+        <item>CE2</item>
+        <item>CM1</item>
+        <item>CM2</item>
+        <item>7eme</item>
+        <item>8eme</item>
+        <item>9eme</item>
+        <item>10eme</item>
+        <item>11eme Scientifique</item>
+        <item>11eme Litteraire</item>
+        <item>12eme Scientifique</item>
+        <item>12eme Litteraire</item>
+    </array>
+
+    <array name="array_sexe">
+        <item>Homme</item>
+        <item>Femme</item>
+    </array>
+
+</resources>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:id="@+id/lay_mens_list_classe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10 eme"
+            android:textColor="@color/black"
+            android:layout_weight="0.25"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/lay_mens_list_montant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10 eme"
+            android:layout_weight="0.40"
+            android:gravity="right"
+            android:textColor="@color/app_color"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/lay_mens_list_regime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Externat"
+            android:textColor="@color/gray_dark"
+            android:layout_weight="0.25"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/lay_mens_list_btn_modify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="modifier"
+            android:textColor="@color/white"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/cor_small_blue"
+            android:textSize="12sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/lay_mens_list_btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="delete"
+            android:textColor="@color/white"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/cor_small_red"
+            android:textSize="12sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/lay_mens_list_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="montant"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal"/>
+
+        <EditText
+            android:id="@+id/lay_mens_list_montant_modify"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:gravity="right"
+            android:inputType="numberSigned"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:textSize="14sp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/lay_mens_list_montant_btn_modify_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="enregistrer"
+            android:textColor="@color/white"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/cor_small_blue"
+            android:textSize="12sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>
+

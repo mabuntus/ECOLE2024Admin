@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_marginBottom="1dp"
+    android:orientation="vertical"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp">
+
+        <TextView
+            android:id="@+id/lay_bulletin_no"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:gravity="right"
+            android:padding="2dp"
+            android:textColor="@color/gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:layout_weight="1.1">
+
+            <TextView
+                android:id="@+id/lay_bulletin_prenom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mamoudou Alseny Bountouraby Sylla"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:padding="2dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lay_bulletin_nom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sylla"
+                        android:maxLines="1"
+                        android:textColor="@color/black"
+                        android:layout_weight="1"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:id="@+id/lay_bulletin_matricule"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sylla"
+                        android:gravity="right"
+                        android:maxLines="1"
+                        android:layout_weight="1"
+                        android:textColor="@color/app_color"
+                        android:padding="2dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="2.0"
+            android:gravity="right"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="total"
+                android:gravity="right"
+                android:textColor="@color/gray_dark"
+                android:paddingBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/lay_bulletin_total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="80.05"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="2.0"
+            android:gravity="right"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="moy"
+                android:gravity="right"
+                android:textColor="@color/gray_dark"
+                android:paddingBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/lay_bulletin_moy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="80.05"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="2.0"
+            android:gravity="right"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="rang"
+                android:gravity="right"
+                android:textColor="@color/gray_dark"
+                android:paddingBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/lay_bulletin_rang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="80.05"
+                android:textSize="12sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+

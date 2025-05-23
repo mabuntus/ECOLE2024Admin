@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Ecole</string>
+    <string name="title_activity_pressing">Ecole</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="ecole_logo">/storage/emulated/0/ecole/logo.jpg</string>
+
+    <string name="title_activity_menu_list">MenuList</string>
+    <string name="precedent"><![CDATA[< precedent]]></string>
+    <string name="suivant"><![CDATA[suivant >]]></string>
+
+    <string name="connexion_log">@string/connexion_log_matam</string>
+    <string name="connexion_pwd">@string/connexion_pwd_matam</string>
+
+    <!-- ecole logins -->
+    <string name="connexion_log_sekou_yayo">Mr Barry</string>
+    <string name="connexion_pwd_sekou_yayo">Kalilou</string>
+
+    <string name="connexion_log_kalla_bangoura">Mr Barry</string>
+    <string name="connexion_pwd_kalla_bangoura">Kalilou</string>
+
+    <string name="connexion_log_matam">Mr Bangoura</string>
+    <string name="connexion_pwd_matam">administrateur</string>
+</resources>

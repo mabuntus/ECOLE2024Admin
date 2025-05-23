@@ -1,0 +1,21 @@
+
+<footer>
+    <div class="line">
+        <b>Passe en Classe Superieure</b>
+        <i>___</i>
+        <b>Redouble la Classe</b>
+        <i>___</i>
+    </div>
+    <div class="date">$date$</div>
+</footer>
+
+<section>
+    <div>.</div>
+    <div id="prof">Enseignant(e)</div>
+    <div id="dg">Le Directeur</div>
+</section>
+
+
+</body>
+</html>
+

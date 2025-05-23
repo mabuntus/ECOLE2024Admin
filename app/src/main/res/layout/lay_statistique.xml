@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray_dark"
+    android:layout_marginBottom="1dp"
+    android:orientation="horizontal"
+    android:paddingTop="1dp"
+    android:paddingBottom="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/gray_dark"
+        android:layout_margin="1dp">
+
+        <TextView
+            android:id="@+id/lay_statistique_matiere"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Dictee/Question"
+            android:gravity="center"
+            android:padding="2dp"
+            android:maxLines="1"
+            android:background="@color/white"
+            android:layout_margin="2dp"
+            android:textColor="@color/black"/>
+
+        <!-- 0-1.99 -->
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp">
+
+            <TextView
+                android:id="@+id/lay_statistique_no_1_fille"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text="27"
+                android:gravity="center"
+                android:background="@color/white"
+                android:padding="4dp"
+                android:textSize="12sp"
+                android:maxLines="1"
+                android:layout_margin="1dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/lay_statistique_no_1_total"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text="80"
+                android:gravity="center"
+                android:background="@color/white"
+                android:padding="4dp"
+                android:textSize="12sp"
+                android:maxLines="1"
+                android:layout_margin="1dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <!-- 2-3.99 -->
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp">
+
+            <TextView
+                android:id="@+id/lay_statistique_no_2_fille"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text="27"
+                android:gravity="center"
+                android:background="@color/white"
+                android:padding="4dp"
+                android:textSize="12sp"
+                android:maxLines="1"
+                android:layout_margin="1dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/lay_statistique_no_2_total"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text="80"
+                android:gravity="center"
+                android:background="@color/white"
+                android:padding="4dp"
+                android:textSize="12sp"
+                android:maxLines="1"
+                android:layout_margin="1dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <!-- 4-5.99 -->
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp">
+
+            <TextView
+                android:id="@+id/lay_statistique_no_3_fille"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text="27"
+                android:gravity="center"
+                android:background="@color/white"
+                android:padding="4dp"
+                android:textSize="12sp"
+                android:maxLines="1"
+                android:layout_margin="1dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/lay_statistique_no_3_total"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text="80"
+                android:gravity="center"
+                android:background="@color/white"
+                android:padding="4dp"
+                android:textSize="12sp"
+                android:maxLines="1"
+                android:layout_margin="1dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <!-- 6-7.99 -->
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp">
+
+            <TextView
+                android:id="@+id/lay_statistique_no_4_fille"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text="27"
+                android:gravity="center"
+                android:background="@color/white"
+                android:padding="4dp"
+                android:textSize="12sp"
+                android:maxLines="1"
+                android:layout_margin="1dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/lay_statistique_no_4_total"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text="80"
+                android:gravity="center"
+                android:background="@color/white"
+                android:padding="4dp"
+                android:textSize="12sp"
+                android:maxLines="1"
+                android:layout_margin="1dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <!-- 8-10.00 -->
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp">
+
+            <TextView
+                android:id="@+id/lay_statistique_no_5_fille"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text="27"
+                android:gravity="center"
+                android:background="@color/white"
+                android:padding="4dp"
+                android:textSize="12sp"
+                android:maxLines="1"
+                android:layout_margin="1dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/lay_statistique_no_5_total"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text="80"
+                android:gravity="center"
+                android:background="@color/white"
+                android:padding="4dp"
+                android:textSize="12sp"
+                android:maxLines="1"
+                android:layout_margin="1dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp">
+
+            <TextView
+                android:id="@+id/lay_statistique_composer_fille"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="27"
+                android:gravity="center"
+                android:background="@color/white"
+                android:padding="4dp"
+                android:textSize="12sp"
+                android:maxLines="1"
+                android:layout_margin="1dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/lay_statistique_composer_total"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="80"
+                android:gravity="center"
+                android:background="@color/white"
+                android:padding="4dp"
+                android:textSize="12sp"
+                android:maxLines="1"
+                android:layout_margin="1dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp">
+
+            <TextView
+                android:id="@+id/lay_statistique_moyennant_fille"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="27"
+                android:gravity="center"
+                android:background="@color/white"
+                android:padding="4dp"
+                android:textSize="12sp"
+                android:maxLines="1"
+                android:layout_margin="1dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/lay_statistique_moyennant_total"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="80"
+                android:gravity="center"
+                android:background="@color/white"
+                android:padding="4dp"
+                android:textSize="12sp"
+                android:maxLines="1"
+                android:layout_margin="1dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+

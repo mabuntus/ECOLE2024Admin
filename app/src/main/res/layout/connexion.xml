@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:layout_centerInParent="true"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADMINISTRATEUR"
+            android:gravity="center"
+            android:textColor="@color/app_color"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="80dp"/>
+
+        <EditText
+            android:id="@+id/connexion_code_none"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:inputType="text"
+            android:hint="CHAMPS FICTIF"
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/connexion_code_application"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:inputType="text"
+            android:hint="code application"
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/connexion_code_ecole"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:inputType="text"
+            android:hint="code ecole"
+            android:maxLines="1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/connexion_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="connecter"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:layout_weight="1"
+                android:layout_margin="20dp"
+                android:background="@drawable/cor_small_blue"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

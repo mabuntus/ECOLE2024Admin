@@ -1,0 +1,37 @@
+
+<table class="table-note">
+    <tr>
+       <th colspan="3">MATIERES</th>
+       <th>OBSERVATIONS</th>
+    </tr>
+
+    <tr>
+        <td>No</td>
+        <td>Matiere</td>
+        <td>Note</td>
+        <td rowspan="$nb_matiere$" class="td-observation">
+            <!-- frequentation -->
+            <b>frequentation</b>
+            <div>
+                regulier <div class="case"> </div>
+                irregulier <div class="case"> </div>
+                souvent malade <div class="case"> </div>
+            </div>
+
+            <!-- apparence physique -->
+            <b>apparence physique</b>
+            <div>
+                propre <div class="case"> </div>
+                negligée <div class="case"> </div>
+                a revoir <div class="case"> </div>
+            </div>
+
+            <footer>
+                <br/>
+                <div>La moyenne la plus faible de la classe : <b>$moyenne_low$</b> </div>
+                <div>La moyenne la plus forte de la classe : <b>$moyenne_high$</b> </div>
+                <div> Appreciation de l'enseignant(e) principal(e) : </div>
+            </footer>
+
+        </td>
+    </tr>

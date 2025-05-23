@@ -1,0 +1,24 @@
+
+<nav>
+    <div id="nav-left">
+        <div id="div-elv-photo">
+            <img src="photo.png" id="photo" />
+        </div>
+        <div id="div-elv-info">
+            <div>Matricule : $matricule$</div>
+            <div>Prenom : $prenom$</div>
+            <div>Nom : $nom$</div>
+        </div>
+    </div>
+
+    <div id="nav-center">
+        <div>Rang : $rang$</div>
+        <div>Moyenne : $moyenne$</div>
+        <div>Mention : $mention$</div>
+    </div>
+
+    <div id="nav-right">
+        <div>Classe : $classe$</div>
+        <div>Effectif : $effectif$</div>
+    </div>
+</nav>

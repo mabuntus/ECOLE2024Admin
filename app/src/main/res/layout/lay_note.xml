@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray"
+    android:layout_marginBottom="1dp"
+    android:orientation="vertical"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lay_note_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eleve 5/63"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:background="@color/white"
+            android:textStyle="bold"
+            android:padding="2dp"
+            android:layout_marginBottom="2dp"
+            android:textColor="@color/app_color"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_weight="0.8">
+
+        <TextView
+            android:id="@+id/lay_note_prenom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mamoudou Alseny Bountouraby Sylla"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:padding="2dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lay_note_nom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sylla"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/lay_note_matricule"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sylla"
+                    android:gravity="right"
+                    android:maxLines="1"
+                    android:layout_weight="1"
+                    android:textColor="@color/app_color"
+                    android:padding="2dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:gravity="left"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="total"
+                android:gravity="left"
+                android:layout_weight="1"
+                android:textColor="@color/gray_dark"/>
+
+            <TextView
+                android:id="@+id/lay_note_total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="52.80"
+                android:gravity="left"
+                android:layout_weight="1"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="moyenne"
+                android:gravity="left"
+                android:layout_weight="1"
+                android:textColor="@color/gray_dark"/>
+
+            <TextView
+                android:id="@+id/lay_note_moy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="13.25"
+                android:gravity="left"
+                android:layout_weight="1"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/lay_note_btn_prev"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/precedent"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_margin="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/cor_small_blue"/>
+
+        <TextView
+            android:id="@+id/lay_note_btn_save"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="save"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/cor_small_gray"/>
+
+        <TextView
+            android:id="@+id/lay_note_btn_next"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/suivant"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_margin="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/cor_small_blue"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="notes/matieres"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:padding="4dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:textColor="@color/black_app"/>
+
+    <LinearLayout
+        android:id="@+id/lay_note_box_matiere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+    </LinearLayout>
+</LinearLayout>
+
+

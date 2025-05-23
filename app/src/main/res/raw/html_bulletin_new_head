@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ecole</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            color: black;
+        }
+        header{
+            margin:0px;
+            padding: 0px;
+            background-color: red;
+            text-align: center;
+        }
+            div.head-left {
+                display: inline-block;
+                width: 38%;
+                vertical-align: top;
+                text-align: left;
+                font-size: 0.8rem;
+            }
+                div.head-left > div {
+                    margin: 0px 0px;
+                }
+            div.head-center {
+                display: inline-block;
+                width: 22%;
+                vertical-align: top;
+            }
+                img.logo{
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 10px;
+                }
+            div.head-right {
+                display: inline-block;
+                width: 38%;
+                vertical-align: top;
+                text-align: right;
+            }
+                div.head-right > div {
+                    margin: 4px 0px;
+                }
+                div.pays {
+                    font-weight: bold;
+                    font-size: 0.8rem;
+                }
+                div.devise {
+                    font-size: 0.7rem;
+                }
+        aside {
+            text-align: center;
+            margin: 8px 0px;
+        }
+            aside > div {
+                margin: 8px 0px;
+            }
+            div.ecole_fullname {
+                font-size: 1.0rem;
+            }
+            div.etablissement {
+                font-size: 0.7rem;
+            }
+            div.cycle{
+                font-size: 0.7rem;
+            }
+            div.addresse_tel{
+                font-size: 0.7rem;
+            }
+            div.fiche_eva{
+                font-weight: bold;
+                font-size: 0.8rem;
+            }
+
+        nav{
+            margin:0px;
+            padding: 0px;
+            text-align: center;
+        }
+            div.nav-left {
+                display: inline-block;
+                width: 53%;
+                vertical-align: top;
+                text-align: left;
+            }
+                div.div-elv-photo{
+                    display: inline-block;
+                    vertical-align: top;
+                }
+                    img.photo {
+                        width: 81px;
+                        height: 81px;
+                        border-radius: 50%;
+                    }
+                div.div-elv-info{
+                    display: inline-block;
+                    vertical-align: top;
+                    text-align: left;
+                    font-size: 0.8rem;
+                }
+                    div.div-elv-info > div{
+                        margin: 6px;
+                    }
+            div.nav-center {
+                display: inline-block;
+                width: 22%;
+                vertical-align: top;
+                text-align: left;
+                font-size: 0.8rem;
+            }
+                    div.nav-center > div{
+                        margin: 6px;
+                    }
+            div.nav-right {
+                display: inline-block;
+                width: 20%;
+                vertical-align: top;
+                text-align: left;
+                font-size: 0.8rem;
+            }
+                    div.nav-right > div{
+                        margin: 6px 0px;
+                    }
+
+            table {
+                border: 1px solid black;
+                border-collapse: collapse;
+                width: 97%;
+                margin: 4px 1%;
+            }
+            table, td, th {
+                border: 1px solid black;
+                border-collapse: collapse;
+                font-size: 0.8rem;
+                padding: 4px;
+            }
+                td.td-observation{
+                    text-align: center;
+                    font-size: 0.8rem;
+                    width: 50%;
+                }
+                    td.td-observation > b{
+                        display: block;
+                    }
+                    td.td-observation > div{
+                        margin-bottom: 10px;
+                    }
+                    div.case{
+                        display: inline-block;
+                        width: 8px;
+                        height: 8px;
+                        margin: 2px 12px 2px 4px;
+                        border: 1px solid black;
+                    }
+                td.td-no {
+                    text-align: right;
+                    font-size: 1.0rem;
+                    padding: 10px;
+                }
+                td.td-matiere {
+                    text-align: left;
+                    font-size: 1.0rem;
+                    padding: 10px;
+                }
+                td.td-note {
+                    text-align: right;
+                    font-size: 1.0rem;
+                    padding: 10px;
+                }
+    footer {
+        text-align: left;
+        margin: 2px 10px;
+    }
+        footer > div {
+            margin: 4px 0px;
+        }
+
+    section {
+        margin: 20px;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+        section div.prof {
+            display: inline-block;
+            width: 49%;
+            text-align: left;
+        }
+        section div.dg {
+            display: inline-block;
+            width: 49%;
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="head-left">
+        <div>$mepua$</div>
+        <div>IRE : $ire$</div>
+        <div>DCE : $dce$</div>
+    </div>
+
+    <div class="head-center">
+        <img src="ecole-logo.png" class="logo" alt='ecole-logo'/>
+    </div>
+    <div class="head-right">
+        <div class="pays">$pays$</div>
+        <div class="devise">$devise$</div>
+        <div>$session$</div>
+    </div>
+</header>
+
+<aside>
+    <div class="ecole_fullname">$ecole_fullname$</div>
+    <div class="slogan">$slogan$</div>
+    <div class="etablissement">$etablissement$</div>
+    <div class="cycle">$cycle$</div>
+    <div class="addresse_tel">Adresse : $adresse$ Telephone : $telephone$</div>
+    <div class="fiche_eva">FICHE D'EVALUATION ET D'OBSERVATION DU $trimestre$</div>
+</aside>
+

@@ -1,0 +1,9 @@
+
+    <tr>
+        <td class="td-no">$no$</td>
+        <td class="td-matiere">$matiere$</td>
+        <td class="td-1tri">$note_tri1$</td>
+        <td class="td-1tri">$note_tri2$</td>
+        <td class="td-1tri">$note_tri3$</td>
+        <td class="td-1tri">$note_year$</td>
+    </tr>
